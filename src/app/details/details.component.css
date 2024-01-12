@@ -70,3 +70,11 @@ input {
     height: 400px;
   }
 }
+
+.button-pointer:hover {
+  cursor: pointer;
+}
+
+.button-pointer:focus {
+  border: var
+}
