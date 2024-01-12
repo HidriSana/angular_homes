@@ -8,8 +8,7 @@ import { HousingService } from '../housing.service';
   selector: 'app-home',
   standalone: true,
   imports: [CommonModule, HousingLocationComponent],
-  template: `
-    <section>
+  template: `<section>
       <form>
         <input type="text" placeholder="Filter by city" />
         <button class="primary" type="button">Search</button>
@@ -20,8 +19,7 @@ import { HousingService } from '../housing.service';
         *ngFor="let housingLocation of housingLocationList"
         [housingLocation]="housingLocation"
       ></app-housing-location>
-    </section>
-  `,
+    </section> `,
   styleUrl: './home.component.css',
 })
 export class HomeComponent {
